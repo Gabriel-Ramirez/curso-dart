@@ -29,4 +29,21 @@ String texto = '''
   bool activo = true;
   print(activo);
 
+
+  // listas 
+  List<int> listanumeros = [1,2,3,4,5];
+  print(listanumeros);
+
+
+// Sets
+  Set<String> personajes = {'Batman', 'Superman', 'Mujer Maravilla'};
+  personajes.add('Aquaman');
+  print(personajes);
+
+  // Maps
+  Map<String, dynamic> ironman = {
+    'nombre': 'Tony Stark',
+    'poder': 'Inteligencia y dinero',
+    'edad': 45
+  };
 }
