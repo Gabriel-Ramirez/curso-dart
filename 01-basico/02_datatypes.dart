@@ -46,4 +46,11 @@ String texto = '''
     'poder': 'Inteligencia y dinero',
     'edad': 45
   };
+
+  print(ironman['nombre']);
+
+  Map<String, dynamic> capitan = new Map();
+  capitan.addAll({'nombre': 'Steve', 'poder': 'Soportar suero sin morir'});
+  print(capitan);
+
 }
